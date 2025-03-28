@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,6 +14,8 @@
                 <h2 class="logo-text">☕Coffee</h2>
             </a>
             <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">Home</a>
                 </li>
@@ -32,6 +35,7 @@
                     <a href="#" class="nav-link">Contact</a>
                 </li>
             </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
         </nav>
     </header>
 
@@ -53,10 +57,29 @@
                 </div>
             </div>
         </section>
+
+        <!-- About Section -->
+        <section class="about-section">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/about-image.jpg" alt="about" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">At coffee house in Berndrof, Germany, we pride ourselves on being a go-to destination for coffee lovers and conversation seekers alike. we're dedicateted to privde an exceptional coffee experiance in a cozy and inviting atmosphere, where guest can relax,unwind, and enjoy there time in comfort.</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
          
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
