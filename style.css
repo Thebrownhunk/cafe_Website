@@ -76,7 +76,7 @@ img{
 }
 
  /* navbar styling */
- 
+
 header{
     position: fixed;
     width: 100%;
@@ -255,6 +255,7 @@ header .navbar{
 }
 
 /* Testimonial section */
+
 .testimonials-section{
     padding: 50px 0 100px;
     background: var(--light-pink-color);
