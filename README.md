@@ -1,2 +1,2 @@
 # cafe_Website
-small  responsive cafe website 
+small  responsive cafe website index page
